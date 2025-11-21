@@ -7,7 +7,8 @@ using namespace std;
 void taxCalculator()
 {
     // 设置locale以支持中文输出
-    setlocale(LC_ALL, "");
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
     
     float tax, taxRate, price;
     taxRate = 0.15;

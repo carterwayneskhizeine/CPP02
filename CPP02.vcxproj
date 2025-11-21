@@ -119,14 +119,40 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="thecpp\ifelseExample.cpp" />
-    <ClCompile Include="thecpp\logical_operators.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="thecpp\simple_comparison.cpp" />
     <ClCompile Include="thecpp\average_score_calculation.cpp" />
     <ClCompile Include="thecpp\boolean_equality_demo.cpp" />
     <ClCompile Include="thecpp\calculator_demo.cpp" />
     <ClCompile Include="thecpp\circle_area_calculator.cpp" />
+    <ClCompile Include="thecpp\constants_demo.cpp" />
+    <ClCompile Include="thecpp\data_type_ranges.cpp" />
+    <ClCompile Include="thecpp\english_tax_calculator.cpp" />
+    <ClCompile Include="thecpp\float_literal_example.cpp" />
+    <ClCompile Include="thecpp\floating_point_addition.cpp" />
+    <ClCompile Include="thecpp\floating_point_comparison.cpp" />
+    <ClCompile Include="thecpp\floating_point_limits.cpp" />
+    <ClCompile Include="thecpp\floating_point_precision.cpp" />
+    <ClCompile Include="thecpp\floating_point_types.cpp" />
+    <ClCompile Include="thecpp\ifelseExample.cpp" />
+    <ClCompile Include="thecpp\integer_division_modulo.cpp" />
+    <ClCompile Include="thecpp\integer_float_division.cpp" />
+    <ClCompile Include="thecpp\integer_limits.cpp" />
+    <ClCompile Include="thecpp\logical_operators.cpp" />
+    <ClCompile Include="thecpp\math_functions_demo.cpp" />
+    <ClCompile Include="thecpp\player_health_calculator.cpp" />
+    <ClCompile Include="thecpp\print_age.cpp" />
+    <ClCompile Include="thecpp\rectangle_area_fixed.cpp" />
+    <ClCompile Include="thecpp\rectangle_area_input.cpp" />
+    <ClCompile Include="thecpp\rectangle_perimeter.cpp" />
+    <ClCompile Include="thecpp\save_game_score.cpp" />
+    <ClCompile Include="thecpp\scientific_notation.cpp" />
+    <ClCompile Include="thecpp\simple_arithmetic.cpp" />
+    <ClCompile Include="thecpp\simple_comparison.cpp" />
+    <ClCompile Include="thecpp\tax_calculator.cpp" />
+    <ClCompile Include="thecpp\type_conversion_demo.cpp" />
+    <ClCompile Include="thecpp\type_sizes.cpp" />
+    <ClCompile Include="thecpp\variable_declarations.cpp" />
+    <ClCompile Include="thecpp\yearly_salary_calculator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -6,6 +6,7 @@
         "climits": "cpp",
         "cfloat": "cpp",
         "cstdint": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "type_traits": "cpp"
     }
 }

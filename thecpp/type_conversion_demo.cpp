@@ -10,8 +10,10 @@
 using namespace std;
 
 void type_conversion_demo() {
+
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
+    
     cout << "=== C++ 类型转换演示 ===" << endl;
     
     // 场景1: 数值转换（最常见）
