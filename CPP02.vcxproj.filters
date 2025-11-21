@@ -15,16 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="simple_comparison.cpp">
+    <ClCompile Include="thecpp\simple_comparison.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ifelseExample.cpp">
+    <ClCompile Include="thecpp\ifelseExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="logical_operators.cpp">
+    <ClCompile Include="thecpp\logical_operators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thecpp\average_score_calculation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thecpp\boolean_equality_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thecpp\calculator_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thecpp\circle_area_calculator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,5 +1,11 @@
 {
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "locale": "cpp",
+        "fstream": "cpp",
+        "climits": "cpp",
+        "cfloat": "cpp",
+        "cstdint": "cpp",
+        "vector": "cpp"
     }
 }

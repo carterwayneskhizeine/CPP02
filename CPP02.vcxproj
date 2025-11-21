@@ -119,10 +119,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ifelseExample.cpp" />
-    <ClCompile Include="logical_operators.cpp" />
+    <ClCompile Include="thecpp\ifelseExample.cpp" />
+    <ClCompile Include="thecpp\logical_operators.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="simple_comparison.cpp" />
+    <ClCompile Include="thecpp\simple_comparison.cpp" />
+    <ClCompile Include="thecpp\average_score_calculation.cpp" />
+    <ClCompile Include="thecpp\boolean_equality_demo.cpp" />
+    <ClCompile Include="thecpp\calculator_demo.cpp" />
+    <ClCompile Include="thecpp\circle_area_calculator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
