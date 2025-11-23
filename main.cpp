@@ -37,13 +37,14 @@ void type_conversion_demo();
 void type_sizes();
 void variable_declarations();
 void yearly_salary_calculator();
+void say_hello(std::string user_name);
 
 int main() {
 
     // 设置控制台编码支持中文
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
-
+	/*
     // 调用各个函数
     cout << ">>> 正在调用simpleComparison函数..." << endl;
     simpleComparison();
@@ -242,6 +243,10 @@ int main() {
 	cout << ">>> yearly_salary_calculator函数调用完成" << endl;
 
 	cout << endl;
+	*/
+	cout << ">>> 正在调用say_hello函数..." << endl;
+	say_hello("Alice");
+	cout << ">>> say_hello函数调用完成" << endl;
 	   
 	   return 0;
 }

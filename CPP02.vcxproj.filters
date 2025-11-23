@@ -117,5 +117,8 @@
     <ClCompile Include="thecpp\yearly_salary_calculator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="thecpp\say_hello.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -145,6 +145,7 @@
     <ClCompile Include="thecpp\rectangle_area_input.cpp" />
     <ClCompile Include="thecpp\rectangle_perimeter.cpp" />
     <ClCompile Include="thecpp\save_game_score.cpp" />
+    <ClCompile Include="thecpp\say_hello.cpp" />
     <ClCompile Include="thecpp\scientific_notation.cpp" />
     <ClCompile Include="thecpp\simple_arithmetic.cpp" />
     <ClCompile Include="thecpp\simple_comparison.cpp" />
