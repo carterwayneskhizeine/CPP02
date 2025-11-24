@@ -139,6 +139,7 @@
     <ClCompile Include="thecpp\integer_limits.cpp" />
     <ClCompile Include="thecpp\logical_operators.cpp" />
     <ClCompile Include="thecpp\math_functions_demo.cpp" />
+    <ClCompile Include="thecpp\number_list.cpp" />
     <ClCompile Include="thecpp\player_health_calculator.cpp" />
     <ClCompile Include="thecpp\print_age.cpp" />
     <ClCompile Include="thecpp\rectangle_area_fixed.cpp" />

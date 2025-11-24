@@ -1,6 +1,7 @@
 ﻿#pragma execution_character_set("utf-8")
 #include <windows.h>
 #include <iostream>
+#include <vector>
 using namespace std;
 
 // 函数声明
@@ -38,6 +39,7 @@ void type_sizes();
 void variable_declarations();
 void yearly_salary_calculator();
 void say_hello(std::string user_name);
+void add_zeros_to_list(vector<int> &number_list, int zeros_number);
 
 int main() {
 
@@ -243,10 +245,20 @@ int main() {
 	cout << ">>> yearly_salary_calculator函数调用完成" << endl;
 
 	cout << endl;
-	*/
+	
 	cout << ">>> 正在调用say_hello函数..." << endl;
 	say_hello("Alice");
 	cout << ">>> say_hello函数调用完成" << endl;
+
+	cout << endl;
+	*/
+
+	cout << ">>> 正在调用add_zeros_to_list函数..." << endl;
+	vector<int> list = { 5, 5, 4 };
+	cout << "A. Size of number list: " << list.size() << endl;
+	add_zeros_to_list(list, 4);
+	cout << "C. Size of number list: " << list.size() << endl;
+	cout << ">>> add_zeros_to_list函数调用完成" << endl;
 	   
 	   return 0;
 }
