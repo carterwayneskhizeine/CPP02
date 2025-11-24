@@ -40,6 +40,7 @@ void variable_declarations();
 void yearly_salary_calculator();
 void say_hello(std::string user_name);
 void add_zeros_to_list(vector<int> &number_list, int zeros_number);
+void print_all_elements_from_list(const vector<int> &list);
 
 int main() {
 
@@ -259,6 +260,12 @@ int main() {
 	add_zeros_to_list(list, 4);
 	cout << "C. Size of number list: " << list.size() << endl;
 	cout << ">>> add_zeros_to_list函数调用完成" << endl;
+
+	cout << endl;
+
+	cout << ">>> 正在调用print_all_elements_from_list函数..." << endl;
+	print_all_elements_from_list(list);	
+	cout << ">>> print_all_elements_from_list函数调用完成" << endl;
 	   
 	   return 0;
 }
